@@ -60,6 +60,7 @@ git submodule update --init --recursive
 ```
 
 スクリプトは `git pull` 後にサブモジュールも自動で `git submodule update --init --recursive` するため、`oqtopus_sse_pulse` も定期的に同期されます。
+さらに、サブモジュールの各ブランチ(`.gitmodules` で `branch` 指定)に対して `git pull --ff-only origin <branch>` を実行するため、上流で更新された `oqtopus-sse-pulse` も自動で最新化されます（必要ならこのリポジトリでサブモジュールのコミットを更新して `git push` してください）。
 
 ### .env での設定
 

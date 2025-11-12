@@ -99,4 +99,34 @@ if [[ -f ".gitmodules" ]]; then
   git submodule sync --recursive
   log "Updating git submodules to recorded revisions"
   git submodule update --init --recursive
+
+  if submodule_keys=$(git config --file .gitmodules --name-only --get-regexp '^submodule\..*\.path$' 2>/dev/null); then
+    log "Fast-forwarding git submodules to their tracked branches"
+    while IFS= read -r key; do
+      [[ -z "$key" ]] && continue
+      name="${key#submodule.}"
+      name="${name%.path}"
+      path="$(git config --file .gitmodules --get "$key" 2>/dev/null || true)"
+      branch="$(git config --file .gitmodules --get "submodule.${name}.branch" 2>/dev/null || echo main)"
+      if [[ -z "$path" || ! -d "$path" ]]; then
+        log "WARN: submodule '$name' path '$path' missing; skipping fast-forward"
+        continue
+      fi
+      log "Updating submodule '$name' at '$path' (branch '$branch')"
+      if ! git -C "$path" fetch origin "$branch" --prune >/dev/null 2>&1; then
+        log "WARN: failed to fetch origin/$branch for submodule '$name'"
+        continue
+      fi
+      if ! git -C "$path" checkout "$branch" >/dev/null 2>&1 && \
+         ! git -C "$path" switch "$branch" >/dev/null 2>&1; then
+        log "WARN: failed to switch submodule '$name' to branch '$branch'"
+        continue
+      fi
+      if ! git -C "$path" pull --ff-only origin "$branch" >/dev/null 2>&1; then
+        log "WARN: failed to fast-forward submodule '$name' to origin/$branch"
+        continue
+      fi
+      log "Submodule '$name' fast-forwarded to origin/$branch"
+    done <<<"$submodule_keys"
+  fi
 fi
