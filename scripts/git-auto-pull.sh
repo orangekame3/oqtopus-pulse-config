@@ -93,3 +93,10 @@ log "Fetching and fast-forwarding branch '$BRANCH'"
 git fetch origin "$BRANCH" --prune
 git checkout "$BRANCH" >/dev/null 2>&1 || git switch "$BRANCH" >/dev/null 2>&1
 git pull --ff-only origin "$BRANCH"
+
+if [[ -f ".gitmodules" ]]; then
+  log "Syncing git submodule URLs"
+  git submodule sync --recursive
+  log "Updating git submodules to recorded revisions"
+  git submodule update --init --recursive
+fi

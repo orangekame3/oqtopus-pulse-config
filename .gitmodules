@@ -1,3 +1,4 @@
 [submodule "oqtopus_sse_pulse"]
 	path = oqtopus_sse_pulse
 	url = https://github.com/orangekame3/oqtopus-sse-pulse.git
+	branch = main

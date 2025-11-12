@@ -41,11 +41,25 @@ exp = Experiment(
 )
 ```
 
+## oqtopus_sse_pulse のライブラリを使う
+
+`oqtopus_sse_pulse` ディレクトリは [oqtopus-sse-pulse](https://github.com/orangekame3/oqtopus-sse-pulse) リポジトリをサブモジュールとして取り込んでおり、実験で共有する `libs` が `oqtopus_sse_pulse/src/oqtopus_sse_pulse/libs` 配下に含まれます。
+
+クローン直後に以下を実行してサブモジュールを取得してください。
+
+```shell
+git submodule update --init --recursive
+```
+
+サブモジュールを upstream の最新に追従させたい場合は、`oqtopus_sse_pulse` 配下で通常の `git pull` を行い、その結果をこのリポジトリにコミット・プッシュしてください。
+
 ## 自動更新(管理者用)
 
 ```shell
 */2 * * * * /usr/bin/env bash /path/to/scripts/git-auto-pull.sh
 ```
+
+スクリプトは `git pull` 後にサブモジュールも自動で `git submodule update --init --recursive` するため、`oqtopus_sse_pulse` も定期的に同期されます。
 
 ### .env での設定
 
