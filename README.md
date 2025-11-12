@@ -30,6 +30,17 @@ git commit -m "your_name: Add my parameter settings"
 git push origin main
 ```
 
+各人のパラメータを利用するさいには以下のようにしてしてください。
+
+```python
+exp = Experiment(
+	chip_id="64Qv3",
+	muxes=[9],
+	params_dir="/sse/in/repo/miyanaga/params",
+	calib_note_path="/sse/in/repo/miyanaga/calib_note.json"
+)
+```
+
 ## 自動更新(管理者用)
 
 ```shell
