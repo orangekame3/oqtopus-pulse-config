@@ -7,19 +7,11 @@
 
 ## 設定方法
 
-このリポジトリをクローンし、ご自身の名前でディレクトリを作成してください。
+このリポジトリをクローンし、ご自身の名前でディレクトリを作成してください。(作成済み)
 
 ```shell
 git clone
 cd oqtopus-pulse-config
-mkdir your_name
-```
-
-デフォルトのパラメータ設定ファイルをコピーし、必要に応じて編集してください。
-
-```shell
-cp ogawa/params/params.yaml your_name/params/params.yaml
-cp ogawa/params/props.yaml your_name/params/props.yaml
 ```
 
 編集が終わったら、コミットしてプッシュしてください。
@@ -40,18 +32,6 @@ exp = Experiment(
 	calib_note_path="/sse/in/repo/miyanaga/calib_note.json"
 )
 ```
-
-## oqtopus_sse_pulse のライブラリを使う
-
-`oqtopus_sse_pulse` ディレクトリは [oqtopus-sse-pulse](https://github.com/orangekame3/oqtopus-sse-pulse) リポジトリをサブモジュールとして取り込んでおり、実験で共有する `libs` が `oqtopus_sse_pulse/src/oqtopus_sse_pulse/libs` 配下に含まれます。
-
-クローン直後に以下を実行してサブモジュールを取得してください。
-
-```shell
-git submodule update --init --recursive
-```
-
-サブモジュールを upstream の最新に追従させたい場合は、`oqtopus_sse_pulse` 配下で通常の `git pull` を行い、その結果をこのリポジトリにコミット・プッシュしてください。
 
 ## 自動更新(管理者用)
 
