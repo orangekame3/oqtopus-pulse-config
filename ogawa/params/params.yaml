@@ -30,7 +30,7 @@ test: 0.1
     10: 2048
 
   capture_delay:
-    9: 7
+    9: 6
     10: 6
 
   capture_delay_word:
