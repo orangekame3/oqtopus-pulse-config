@@ -1,3 +1,5 @@
+test: 0.1
+
 64Qv3:
   control_amplitude:
     # MUX09
@@ -28,7 +30,7 @@
     10: 2048
 
   capture_delay:
-    9: 8
+    9: 6
     10: 6
 
   capture_delay_word:
