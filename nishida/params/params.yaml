@@ -28,7 +28,7 @@
     10: 2048
 
   capture_delay:
-    9: 3
+    9: 6
     10: 6
 
   capture_delay_word:
