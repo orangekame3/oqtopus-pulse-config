@@ -29,7 +29,7 @@
 
   capture_delay:
     9: 7
-    10: 6
+    10: 5
 
   capture_delay_word:
     9: 0
