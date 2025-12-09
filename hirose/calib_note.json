@@ -31,32 +31,32 @@
     "Q36": {
       "target": "Q36",
       "duration": 32.0,
-      "amplitude": 0.026957390978545964,
+      "amplitude": 0.026660385126490216,
       "tau": 12,
-      "timestamp": "2025-12-07 04:19:19"
+      "timestamp": "2025-12-09 10:03:19"
     },
     "Q37": {
       "target": "Q37",
       "duration": 32.0,
-      "amplitude": 0.03976802669505733,
+      "amplitude": 0.03991636481471307,
       "tau": 12,
-      "timestamp": "2025-12-07 04:19:27"
+      "timestamp": "2025-12-09 10:03:26"
     }
   },
   "pi_params": {
     "Q36": {
       "target": "Q36",
       "duration": 32.0,
-      "amplitude": 0.05261103015452191,
+      "amplitude": 0.051829315986817504,
       "tau": 12,
-      "timestamp": "2025-12-07 04:36:51"
+      "timestamp": "2025-12-09 10:04:34"
     },
     "Q37": {
       "target": "Q37",
       "duration": 32.0,
-      "amplitude": 0.07939946830915234,
+      "amplitude": 0.0797392253386893,
       "tau": 12,
-      "timestamp": "2025-12-07 04:36:59"
+      "timestamp": "2025-12-09 10:04:41"
     }
   }
 }
