@@ -70,32 +70,67 @@
     "Q36": {
       "target": "Q36",
       "duration": 32.0,
-      "amplitude": 0.026660385126490216,
+      "amplitude": 0.02757174053822123,
       "tau": 12,
-      "timestamp": "2025-12-09 10:03:19"
+      "timestamp": "2025-12-11 10:48:22"
     },
     "Q37": {
       "target": "Q37",
       "duration": 32.0,
-      "amplitude": 0.03991636481471307,
+      "amplitude": 0.03983246566694426,
       "tau": 12,
-      "timestamp": "2025-12-09 10:03:26"
+      "timestamp": "2025-12-11 10:48:30"
+    },
+    "Q38": {
+      "target": "Q38",
+      "duration": 32.0,
+      "amplitude": 0.06364171363078606,
+      "tau": 12,
+      "timestamp": "2025-12-11 10:48:37"
+    },
+    "Q39": {
+      "target": "Q39",
+      "duration": 32.0,
+      "amplitude": 0.01868758196214066,
+      "tau": 12,
+      "timestamp": "2025-12-11 10:48:45"
     }
   },
   "pi_params": {
     "Q36": {
       "target": "Q36",
       "duration": 32.0,
-      "amplitude": 0.051829315986817504,
+      "amplitude": 0.05630236298154893,
       "tau": 12,
-      "timestamp": "2025-12-09 10:04:34"
+      "timestamp": "2025-12-11 10:49:32"
     },
     "Q37": {
       "target": "Q37",
       "duration": 32.0,
-      "amplitude": 0.0797392253386893,
+      "amplitude": 0.07967149426170048,
       "tau": 12,
-      "timestamp": "2025-12-09 10:04:41"
+      "timestamp": "2025-12-11 10:49:40"
+    },
+    "Q38": {
+      "target": "Q38",
+      "duration": 32.0,
+      "amplitude": 0.12800104133605358,
+      "tau": 12,
+      "timestamp": "2025-12-11 10:49:48"
+    },
+    "Q39": {
+      "target": "Q39",
+      "duration": 32.0,
+      "amplitude": 0.0372225896759521,
+      "tau": 12,
+      "timestamp": "2025-12-11 10:49:55"
+    },
+    "Q40": {
+      "target": "Q40",
+      "duration": 32.0,
+      "amplitude": 0.05443007063676883,
+      "tau": 12,
+      "timestamp": "2025-12-11 10:50:04"
     }
   }
 }
