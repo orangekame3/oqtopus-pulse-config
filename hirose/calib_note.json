@@ -70,30 +70,37 @@
     "Q36": {
       "target": "Q36",
       "duration": 32.0,
-      "amplitude": 0.02757174053822123,
+      "amplitude": 0.027622190411226,
       "tau": 12,
-      "timestamp": "2025-12-11 10:48:22"
+      "timestamp": "2025-12-13 04:07:48"
     },
     "Q37": {
       "target": "Q37",
       "duration": 32.0,
-      "amplitude": 0.03983246566694426,
+      "amplitude": 0.039690818207929454,
       "tau": 12,
-      "timestamp": "2025-12-11 10:48:30"
+      "timestamp": "2025-12-13 04:07:56"
     },
     "Q38": {
       "target": "Q38",
       "duration": 32.0,
-      "amplitude": 0.06364171363078606,
+      "amplitude": 0.06354542595985198,
       "tau": 12,
-      "timestamp": "2025-12-11 10:48:37"
+      "timestamp": "2025-12-13 04:08:04"
     },
     "Q39": {
       "target": "Q39",
       "duration": 32.0,
-      "amplitude": 0.01868758196214066,
+      "amplitude": 0.018567751918822706,
       "tau": 12,
-      "timestamp": "2025-12-11 10:48:45"
+      "timestamp": "2025-12-13 04:08:11"
+    },
+    "Q40": {
+      "target": "Q40",
+      "duration": 32.0,
+      "amplitude": 0.023583304728797088,
+      "tau": 12,
+      "timestamp": "2025-12-13 04:08:21"
     }
   },
   "pi_params": {
