@@ -669,5 +669,112 @@
       "reference_phase": 1.6650890274701529,
       "timestamp": "2026-01-15 18:16:31"
     }
+  },
+  "pi_params": {
+    "Q36": {
+      "target": "Q36",
+      "duration": 32.0,
+      "amplitude": 0.05331250526755779,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:34:03"
+    },
+    "Q37": {
+      "target": "Q37",
+      "duration": 32.0,
+      "amplitude": 0.07324800345514658,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:34:10"
+    },
+    "Q38": {
+      "target": "Q38",
+      "duration": 32.0,
+      "amplitude": 0.13995516902693633,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:34:18"
+    },
+    "Q42": {
+      "target": "Q42",
+      "duration": 32.0,
+      "amplitude": 0.08473817449606785,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:34:26"
+    },
+    "Q44": {
+      "target": "Q44",
+      "duration": 32.0,
+      "amplitude": 0.0582187157078687,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:34:35"
+    },
+    "Q47": {
+      "target": "Q47",
+      "duration": 32.0,
+      "amplitude": 0.0638744376924143,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:34:44"
+    },
+    "Q52": {
+      "target": "Q52",
+      "duration": 32.0,
+      "amplitude": 0.02304020578073779,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:34:52"
+    },
+    "Q54": {
+      "target": "Q54",
+      "duration": 32.0,
+      "amplitude": 0.07894458232599057,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:34:59"
+    },
+    "Q55": {
+      "target": "Q55",
+      "duration": 32.0,
+      "amplitude": 0.04014331883805729,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:35:07"
+    },
+    "Q56": {
+      "target": "Q56",
+      "duration": 32.0,
+      "amplitude": 0.045777432390581935,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:35:16"
+    },
+    "Q57": {
+      "target": "Q57",
+      "duration": 32.0,
+      "amplitude": 0.13926012409052632,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:35:25"
+    },
+    "Q58": {
+      "target": "Q58",
+      "duration": 32.0,
+      "amplitude": 0.13897143096014486,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:35:35"
+    },
+    "Q60": {
+      "target": "Q60",
+      "duration": 32.0,
+      "amplitude": 0.040516089202855626,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:35:42"
+    },
+    "Q62": {
+      "target": "Q62",
+      "duration": 32.0,
+      "amplitude": 0.28947988448098594,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:35:50"
+    },
+    "Q63": {
+      "target": "Q63",
+      "duration": 32.0,
+      "amplitude": 0.09077854495744818,
+      "tau": 12,
+      "timestamp": "2026-01-15 22:35:57"
+    }
   }
 }
