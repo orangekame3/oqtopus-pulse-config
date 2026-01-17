@@ -103,7 +103,7 @@
     Q62: 8.738148162127121
     Q63: 7.941328559114846
 
-  readout frequency:
+  readout_frequency:
     # MUX 2
     Q08: 10.071844
     Q09: 10.443884
