@@ -1,1 +1,294 @@
-64
+64Qv3:
+  control_amplitude:
+    # MUX02
+    Q08: 0.061517
+    Q09: 0.181200
+    Q10: 0.085210
+    Q11: 0.022190
+    # # MUX03
+    Q12: 0.024306
+    Q13: 0.044511
+    Q14: 0.047946
+    Q15: 0.024382
+    # # MUX04
+    Q16: 0.012222
+    Q17: 0.007896
+    Q18: 0.014574
+    Q19: 0.007325
+    # # MUX05
+    Q20: 0.031994
+    Q21: 0.028393
+    Q22: 0.079992
+    Q23: 0.047020
+    # MUX06
+    Q24: 0.016186
+    Q25: 0.021271
+    Q26: 0.060621
+    Q27: 0.029084
+    # MUX07
+    Q28: 0.024464
+    Q29: 0.06
+    Q30: 0.018622
+    Q31: 0.031799
+    # MUX09
+    Q36: 0.025981
+    Q37: 0.036555
+    Q38: 0.068536
+    Q39: 0.019579
+    # MUX10
+    Q40: 0.028987
+    Q41: 0.079277
+    Q42: 0.027693 
+    Q43: 0.1
+    # MUX11
+    Q44: 0.035578
+    Q45: 0.119608
+    Q46: 0.05
+    Q47: 0.023739
+    # MUX12
+    Q48: 0.027498
+    Q49: 0.092660
+    Q50: 0.093024
+    Q51: 0.036671
+    # MUX13
+    Q52: 0.023703
+    Q53: 0.088949
+    Q54: 0.080146
+    Q55: 0.039959
+    # MUX14
+    Q56: 0.03
+    Q57: 0.058285
+    Q58: 0.15
+    Q59: 0.01361885665283047
+    # MUX15
+    Q60: 0.015
+    Q61: 0.065
+    Q62: 0.06
+    Q63: 0.015605701469195155
+
+  readout_amplitude:
+    # # MUX02
+    # # Q08: 0.1
+    # # Q09: 0.1
+    # # Q10: 0.1
+    # # Q11: 0.1
+    # Q08: 0.2
+    # Q09: 0.18
+    # Q10: 0.2
+    # Q11: 0.2
+    # # # MUX03
+    # # Q12: 0.1
+    # # Q13: 0.1
+    # # Q14: 0.1
+    # # Q15: 0.1
+    # Q12: 0.2
+    # Q13: 0.1
+    # Q14: 0.1
+    # Q15: 0.16
+    # # # MUX04
+    # Q16: 0.1
+    # Q17: 0.1
+    # Q18: 0.1
+    # Q19: 0.1
+    # # # MUX05
+    # Q20: 0.08
+    # Q21: 0.08
+    # Q22: 0.15
+    # Q23: 0.1
+    # # # MUX06
+    # # Q24: 0.15
+    # # Q25: 0.15
+    # # Q26: 0.15
+    # # Q27: 0.15
+    # Q24: 0.20
+    # Q25: 0.20
+    # Q26: 0.20
+    # Q27: 0.20
+    # # MUX07
+    # # Q28: 0.15
+    # # Q29: 0.15
+    # # Q30: 0.1
+    # # Q31: 0.1
+    # Q28: 0.20
+    # Q29: 0.15
+    # Q30: 0.1
+    # Q31: 0.1
+    # # MUX09
+    # # Q36: 0.15
+    # # Q37: 0.15
+    # # Q38: 0.1
+    # # Q39: 0.15
+    # Q36: 0.20
+    # Q37: 0.20
+    # Q38: 0.20
+    # Q39: 0.20
+    # # MUX10
+    # # Q40: 0.15
+    # # Q41: 0.15
+    # # Q42: 0.15
+    # # Q43: 0.15
+    # Q40: 0.15
+    # Q41: 0.20
+    # Q42: 0.15
+    # Q43: 0.15
+    # # MUX11
+    # # Q44: 0.15
+    # # Q45: 0.15
+    # # Q46: 0.15
+    # # Q47: 0.15
+    # Q44: 0.20
+    # Q45: 0.15
+    # Q46: 0.15
+    # Q47: 0.20
+    # # MUX12
+    # Q48: 0.1
+    # Q49: 0.1
+    # Q50: 0.15
+    # Q51: 0.1
+    # # MUX13
+    # # Q52: 0.15
+    # # Q53: 0.1
+    # # Q54: 0.15
+    # # Q55: 0.15
+    # Q52: 0.20
+    # Q53: 0.1
+    # Q54: 0.20
+    # Q55: 0.20
+    # # MUX14
+    # # Q56: 0.05
+    # # Q57: 0.05
+    # # Q58: 0.05
+    # # Q59: 0.05
+    # Q56: 0.20
+    # Q57: 0.20
+    # Q58: 0.18
+    # Q59: 0.16
+    # # MUX15
+    # # Q60: 0.07
+    # # Q61: 0.07
+    # # Q62: 0.07
+    # # Q63: 0.07
+    # Q60: 0.16
+    # Q61: 0.07
+    # Q62: 0.20
+    # Q63: 0.16
+    Q08: 0.25
+    Q10: 0.25
+    Q11: 0.24000000000000002
+    Q12: 0.25
+    Q15: 0.25
+    Q24: 0.16
+    Q25: 0.25
+    Q26: 0.25
+    Q27: 0.25
+    Q28: 0.25
+    Q36: 0.21000000000000002
+    Q37: 0.25
+    Q38: 0.25
+    Q39: 0.25
+    Q42: 0.25
+    Q43: 0.18000000000000002
+    Q52: 0.22
+    Q54: 0.24000000000000002
+    Q55: 0.2
+    Q56: 0.24000000000000002
+    Q57: 0.16
+    Q58: 0.21000000000000002
+    Q60: 0.19
+    Q62: 0.25
+    Q63: 0.25
+
+  readout_vatt:
+    9: 2048
+    10: 2048
+
+  capture_delay:
+    9: 7
+    10: 6
+
+  capture_delay_word:
+    9: 0
+    10: 0
+
+  pump_frequency:
+    9: 10.25
+    10: 10.25
+  jpa_params:
+    # MUX
+    0:
+      dc_voltage: 0.1456
+      pump_frequency: 10.18
+      pump_amplitude: 0.1
+    1:
+      dc_voltage: 0.344
+      pump_frequency: 10.06
+      pump_amplitude: 0.1
+    2:
+      dc_voltage: 0.3725
+      pump_frequency: 10.1875
+      # pump_amplitude: 0.175
+      pump_amplitude: 0.1375
+      # dc_voltage: 0.37
+      # pump_frequency: 10.166667
+      # pump_amplitude: 0.165
+    3:
+      dc_voltage: 0.4512
+      pump_frequency: 10.041667
+      pump_amplitude: 0.1188
+      # dc_voltage: 0.4158
+      # pump_frequency: 10.43
+      # pump_amplitude: 0.2
+    4:
+      dc_voltage: 0.576
+      pump_frequency: 10.17
+      pump_amplitude: 0.2
+    5:
+      dc_voltage: null
+      pump_frequency: 10.25
+      pump_amplitude: null
+    6:
+      dc_voltage: 0.5135416666666667
+      pump_frequency: 10.25
+      pump_amplitude: 0.22
+      # dc_voltage: 0.5215
+      # pump_frequency: 10.5
+      # pump_amplitude: 0.31
+      # dc_voltage: 0.484
+      # pump_frequency: 10.479167
+      # pump_amplitude: 0.34
+    7:
+      dc_voltage: null
+      pump_frequency: 10.25
+      pump_amplitude: null
+    8:
+      dc_voltage: 1.602
+      pump_frequency: 10.35
+      pump_amplitude: 0.17
+    9:
+      dc_voltage: 0.2535
+      pump_frequency: 10.25
+      pump_amplitude: 0.1275
+    10:
+      dc_voltage: null
+      pump_frequency: 10.25
+      pump_amplitude: null
+    11:
+      dc_voltage: null
+      pump_frequency: 10.25
+      pump_amplitude: null
+    12:
+      dc_voltage: 0.1883
+      pump_frequency: 10.0625
+      pump_amplitude: 0.0375
+    13:
+      dc_voltage: null
+      pump_frequency: 10.25
+      pump_amplitude: null
+    14:
+      dc_voltage: null
+      pump_frequency: 10.25
+      pump_amplitude: null
+    15:
+      dc_voltage: 0.197
+      pump_frequency: 10.37
+      pump_amplitude: 0.22
